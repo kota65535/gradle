@@ -61,6 +61,8 @@ import static org.gradle.internal.Cast.uncheckedCast;
  * </pre>
  * <p>
  * The report is generated as <code>build/reports/project/dependencies.json</code>.
+ *
+ * @since 8.3
  */
 @UntrackedTask(because = "We can't describe the dependency tree of all projects as input")
 public abstract class JsonDependencyReportTask extends ConventionReportTask {
